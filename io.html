@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./io.css">
+   <title>Test 2</title>
+</head>
+<body>
+   <div class="messages">
+      <p>boundingClientRect: <span class="bounding-client-rect">value</span></p>
+      <p>intersectionRatio: <span class="intersection-ratio">value</span></p>
+      <p>intersectionRect: <span class="intersection-rect">value</span></p>
+      <p>isIntersecting: <span class="is-intersecting">value</span></p>
+      <p>isVisible: <span class="is-visible">value</span></p>
+      <p>rootBounds: <span class="root-bounds">value</span></p>
+      <p>Положение: <span class="position">value</span></p>
+      <button class="btn btn-normal-target">Target 100х100</button>
+      <button class="btn btn-high-target">Target 100х300</button> 
+   </div>
+   <div class="viewport">
+      <div class="root">
+         <div class="scrolling">Прокрути оба ползунка до середины
+            <div class="container-for-target">
+               <div class="target target-normal">target</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   <script src="./io.js"></script>
+</body>
+</html>
